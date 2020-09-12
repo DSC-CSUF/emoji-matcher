@@ -5,7 +5,7 @@ import shuffle from '../../utils/shuffle';
 
 const GamePage = () => {
 
-  const emojis = ["⛩", "⛷", "✂", "✌", "❌", "🏓", "🐛", "👣", "💖", "📞"];
+  const emojis = ["🐆", "🐳", "🦎", "🐈", "🐞", "🦓", "🐭", "🦅", "🐏", "🦀"];
   const [cardData, setCardData] = useState(null);
   const [flipped, setFlipped] = useState([]);
   const [matched, setMatched] = useState([]);
